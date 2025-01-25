@@ -1,0 +1,28 @@
+/* Custom CSS for animations and styling */
+.health-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .health-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestion-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .suggestion-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animation for accordion items */
+  .accordion-item {
+    transition: all 0.3s ease;
+  }
+  
+  .accordion-item:hover {
+    background-color: #f8f9fa;
+  }

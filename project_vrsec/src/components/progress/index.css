@@ -1,0 +1,54 @@
+.progress-page {
+    padding: 20px;
+  }
+  
+  .progress-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .progress-page .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-page .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .progress-page .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .progress-page .btn-group {
+    margin-bottom: 20px;
+  }
+  
+  .progress-page .btn-group .btn {
+    margin: 0 5px;
+    border-radius: 20px;
+  }/* Hover effects for cards */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation for cards */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }

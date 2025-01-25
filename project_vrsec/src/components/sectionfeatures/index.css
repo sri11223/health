@@ -1,0 +1,110 @@
+/* Feature card styling */
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon styling */
+  .icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 110, 253, 0.1);
+    border-radius: 50%;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+  }
+  
+  /* Custom colors for icons */
+  .text-purple {
+    color: #6f42c1;
+  }
+  
+  .text-orange {
+    color: #fd7e14;
+  }
+  
+  .text-teal {
+    color: #20c997;
+  }
+  
+  .text-pink {
+    color: #e83e8c;
+  }
+  
+  /* Animation delays */
+  .animate__delay-1s {
+    animation-delay: 0.5s;
+  }
+  
+  .animate__delay-2s {
+    animation-delay: 1s;
+  }
+  
+  .animate__delay-3s {
+    animation-delay: 1.5s;
+  }
+  
+  .animate__delay-4s {
+    animation-delay: 2s;
+  }
+  
+  .animate__delay-5s {
+    animation-delay: 2.5s;
+  }
+  
+  .animate__delay-6s {
+    animation-delay: 3s;
+  }
+  
+  .animate__delay-7s {
+    animation-delay: 3.5s;
+  }
+  
+  .animate__delay-8s {
+    animation-delay: 4s;
+  }
+  /* Custom colors for icons */
+.text-indigo {
+    color: #6610f2;
+  }
+  
+  .text-brown {
+    color: #795548;
+  }
+  
+  .text-cyan {
+    color: #17a2b8;
+  }
+  
+  .text-deep-purple {
+    color: #673ab7;
+  }
+  
+  /* Animation delays */
+  .animate__delay-9s {
+    animation-delay: 4.5s;
+  }
+  
+  .animate__delay-10s {
+    animation-delay: 5s;
+  }
+  
+  .animate__delay-11s {
+    animation-delay: 5.5s;
+  }
+  
+  .animate__delay-12s {
+    animation-delay: 6s;
+  }

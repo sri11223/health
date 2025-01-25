@@ -1,0 +1,394 @@
+{
+    "diets": [
+      {
+        "id": 1,
+        "name": "Keto Diet Plan",
+        "type": "Keto",
+        "calories": "1500",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A low-carb, high-fat diet designed to help you lose weight by burning fat for energy.",
+        "meals": [
+          {
+            "name": "Avocado & Eggs",
+            "description": "Scrambled eggs with avocado and spinach.",
+            "calories": 350
+          },
+          {
+            "name": "Grilled Chicken Salad",
+            "description": "Grilled chicken breast with mixed greens, olive oil, and feta cheese.",
+            "calories": 400
+          },
+          {
+            "name": "Keto Smoothie",
+            "description": "A smoothie made with almond milk, spinach, avocado, and protein powder.",
+            "calories": 300
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vegan Diet Plan",
+        "type": "Vegan",
+        "calories": "1800",
+        "duration": "30 days",
+        "target": "Health & Wellness",
+        "description": "A plant-based diet that excludes all animal products, focusing on fruits, vegetables, and grains.",
+        "meals": [
+          {
+            "name": "Vegan Buddha Bowl",
+            "description": "A bowl with quinoa, roasted veggies, chickpeas, and tahini dressing.",
+            "calories": 450
+          },
+          {
+            "name": "Lentil Soup",
+            "description": "A hearty soup made with lentils, carrots, celery, and spices.",
+            "calories": 300
+          },
+          {
+            "name": "Vegan Smoothie",
+            "description": "A smoothie made with almond milk, banana, spinach, and chia seeds.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Low-Carb Diet Plan",
+        "type": "Low-Carb",
+        "calories": "1200",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A diet that reduces carbohydrate intake to help you lose weight and improve metabolic health.",
+        "meals": [
+          {
+            "name": "Egg & Bacon",
+            "description": "Scrambled eggs with bacon and a side of avocado.",
+            "calories": 400
+          },
+          {
+            "name": "Grilled Salmon",
+            "description": "Grilled salmon with a side of steamed broccoli.",
+            "calories": 450
+          },
+          {
+            "name": "Low-Carb Smoothie",
+            "description": "A smoothie made with almond milk, spinach, and protein powder.",
+            "calories": 200
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Paleo Diet Plan",
+        "type": "Paleo",
+        "calories": "2000",
+        "duration": "30 days",
+        "target": "Muscle Gain",
+        "description": "A diet based on foods similar to what might have been eaten during the Paleolithic era.",
+        "meals": [
+          {
+            "name": "Steak & Sweet Potato",
+            "description": "Grilled steak with a side of roasted sweet potatoes.",
+            "calories": 600
+          },
+          {
+            "name": "Paleo Salad",
+            "description": "A salad with mixed greens, grilled chicken, avocado, and olive oil.",
+            "calories": 400
+          },
+          {
+            "name": "Paleo Smoothie",
+            "description": "A smoothie made with coconut milk, berries, and almond butter.",
+            "calories": 300
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Mediterranean Diet Plan",
+        "type": "Mediterranean",
+        "calories": "2500",
+        "duration": "30 days",
+        "target": "Heart Health",
+        "description": "A diet inspired by the eating habits of countries bordering the Mediterranean Sea, rich in fruits, vegetables, and healthy fats.",
+        "meals": [
+          {
+            "name": "Greek Salad",
+            "description": "A salad with tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+            "calories": 350
+          },
+          {
+            "name": "Grilled Fish",
+            "description": "Grilled fish with a side of quinoa and steamed vegetables.",
+            "calories": 500
+          },
+          {
+            "name": "Mediterranean Smoothie",
+            "description": "A smoothie made with yogurt, berries, and honey.",
+            "calories": 300
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Intermittent Fasting Plan",
+        "type": "Fasting",
+        "calories": "1800",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A diet that cycles between periods of eating and fasting to promote fat loss.",
+        "meals": [
+          {
+            "name": "Avocado Toast",
+            "description": "Whole-grain toast with mashed avocado and a sprinkle of salt.",
+            "calories": 300
+          },
+          {
+            "name": "Grilled Chicken Wrap",
+            "description": "Grilled chicken wrapped in a whole-grain tortilla with veggies.",
+            "calories": 400
+          },
+          {
+            "name": "Green Smoothie",
+            "description": "A smoothie made with spinach, apple, and almond milk.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "DASH Diet Plan",
+        "type": "DASH",
+        "calories": "2000",
+        "duration": "30 days",
+        "target": "Blood Pressure Control",
+        "description": "A diet designed to lower blood pressure by emphasizing fruits, vegetables, and low-fat dairy.",
+        "meals": [
+          {
+            "name": "Oatmeal with Berries",
+            "description": "Oatmeal topped with fresh berries and a drizzle of honey.",
+            "calories": 300
+          },
+          {
+            "name": "Grilled Salmon",
+            "description": "Grilled salmon with a side of steamed vegetables.",
+            "calories": 450
+          },
+          {
+            "name": "Yogurt Parfait",
+            "description": "Low-fat yogurt layered with granola and fresh fruit.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Atkins Diet Plan",
+        "type": "Low-Carb",
+        "calories": "1500",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A low-carb diet that focuses on protein and fat to promote weight loss.",
+        "meals": [
+          {
+            "name": "Bacon & Eggs",
+            "description": "Fried eggs with bacon and a side of avocado.",
+            "calories": 400
+          },
+          {
+            "name": "Grilled Steak",
+            "description": "Grilled steak with a side of sautéed spinach.",
+            "calories": 500
+          },
+          {
+            "name": "Cheese Platter",
+            "description": "A selection of cheeses with nuts and olives.",
+            "calories": 300
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Whole30 Diet Plan",
+        "type": "Whole30",
+        "calories": "1800",
+        "duration": "30 days",
+        "target": "Detox",
+        "description": "A 30-day elimination diet that removes sugar, alcohol, grains, and dairy.",
+        "meals": [
+          {
+            "name": "Sweet Potato Hash",
+            "description": "Sweet potatoes sautéed with onions, peppers, and eggs.",
+            "calories": 350
+          },
+          {
+            "name": "Grilled Chicken",
+            "description": "Grilled chicken with a side of roasted vegetables.",
+            "calories": 400
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "A mix of fresh fruits like berries, melon, and kiwi.",
+            "calories": 200
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Flexitarian Diet Plan",
+        "type": "Flexitarian",
+        "calories": "2000",
+        "duration": "30 days",
+        "target": "Health & Wellness",
+        "description": "A flexible vegetarian diet that allows occasional meat consumption.",
+        "meals": [
+          {
+            "name": "Vegetable Stir-Fry",
+            "description": "Stir-fried vegetables with tofu and soy sauce.",
+            "calories": 350
+          },
+          {
+            "name": "Quinoa Salad",
+            "description": "Quinoa with roasted vegetables and a lemon vinaigrette.",
+            "calories": 400
+          },
+          {
+            "name": "Fruit Smoothie",
+            "description": "A smoothie made with mixed berries, banana, and almond milk.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Zone Diet Plan",
+        "type": "Zone",
+        "calories": "1500",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A diet that balances protein, carbs, and fat in a 40-30-30 ratio.",
+        "meals": [
+          {
+            "name": "Grilled Chicken",
+            "description": "Grilled chicken with a side of steamed broccoli.",
+            "calories": 400
+          },
+          {
+            "name": "Salmon & Asparagus",
+            "description": "Grilled salmon with roasted asparagus.",
+            "calories": 450
+          },
+          {
+            "name": "Protein Shake",
+            "description": "A shake made with protein powder, almond milk, and berries.",
+            "calories": 300
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "South Beach Diet Plan",
+        "type": "Low-Carb",
+        "calories": "1800",
+        "duration": "30 days",
+        "target": "Weight Loss",
+        "description": "A low-carb diet that emphasizes lean protein and healthy fats.",
+        "meals": [
+          {
+            "name": "Egg White Omelette",
+            "description": "An omelette made with egg whites, spinach, and tomatoes.",
+            "calories": 300
+          },
+          {
+            "name": "Grilled Turkey Burger",
+            "description": "A turkey burger with a side of mixed greens.",
+            "calories": 400
+          },
+          {
+            "name": "Greek Yogurt",
+            "description": "Greek yogurt with a handful of nuts.",
+            "calories": 200
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Raw Food Diet Plan",
+        "type": "Raw",
+        "calories": "1200",
+        "duration": "30 days",
+        "target": "Detox",
+        "description": "A diet that focuses on uncooked and unprocessed foods.",
+        "meals": [
+          {
+            "name": "Raw Veggie Wrap",
+            "description": "A wrap made with raw vegetables and avocado.",
+            "calories": 300
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "A mix of fresh fruits like berries, melon, and kiwi.",
+            "calories": 200
+          },
+          {
+            "name": "Green Smoothie",
+            "description": "A smoothie made with spinach, apple, and almond milk.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Gluten-Free Diet Plan",
+        "type": "Gluten-Free",
+        "calories": "1800",
+        "duration": "30 days",
+        "target": "Health & Wellness",
+        "description": "A diet that excludes gluten-containing foods to improve digestion and health.",
+        "meals": [
+          {
+            "name": "Quinoa Bowl",
+            "description": "Quinoa with roasted vegetables and a lemon vinaigrette.",
+            "calories": 400
+          },
+          {
+            "name": "Grilled Chicken",
+            "description": "Grilled chicken with a side of steamed broccoli.",
+            "calories": 450
+          },
+          {
+            "name": "Fruit Smoothie",
+            "description": "A smoothie made with mixed berries, banana, and almond milk.",
+            "calories": 250
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Low-FODMAP Diet Plan",
+        "type": "Low-FODMAP",
+        "calories": "1500",
+        "duration": "30 days",
+        "target": "Digestive Health",
+        "description": "A diet designed to reduce symptoms of irritable bowel syndrome (IBS).",
+        "meals": [
+          {
+            "name": "Grilled Chicken",
+            "description": "Grilled chicken with a side of steamed carrots.",
+            "calories": 400
+          },
+          {
+            "name": "Quinoa Salad",
+            "description": "Quinoa with roasted vegetables and a lemon vinaigrette.",
+            "calories": 350
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "A mix of fresh fruits like berries, melon, and kiwi.",
+            "calories": 200
+          }
+        ]
+      }
+    ]
+  }

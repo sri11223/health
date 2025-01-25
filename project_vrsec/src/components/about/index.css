@@ -1,0 +1,41 @@
+/* About Us Section */
+.about-us-section {
+    background-color: #f8f9fa;
+  }
+  
+  /* About Card Styling */
+  .about-card {
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon Styling */
+  .icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 110, 253, 0.1);
+    border-radius: 50%;
+  }
+  
+  .about-icon {
+    font-size: 2rem;
+  }
+  
+  /* Animation Delays */
+  .animate__delay-1s {
+    animation-delay: 0.5s;
+  }
+  
+  .animate__delay-2s {
+    animation-delay: 1s;
+  }

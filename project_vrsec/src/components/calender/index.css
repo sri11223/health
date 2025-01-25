@@ -1,0 +1,535 @@
+/* Daily Data Section */
+.daily-data {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-data h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .data-item {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .data-item strong {
+    color: #000;
+  }
+  
+  .data-item ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+  }
+  
+  .data-item ul li {
+    list-style-type: disc;
+  }
+  
+  /* Calendar Section Container */
+  .calendar-section {
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Calendar Icon */
+  .calendar-icon {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .calendar-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Calendar Popup */
+  .calendar-popup {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 10;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  /* Custom Calendar Styling */
+  .custom-calendar {
+    width: 300px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-header button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .calendar-day,
+  .calendar-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .calendar-day {
+    font-weight: bold;
+    background: #f0f0f0;
+  }
+  
+  .calendar-date {
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .calendar-date.empty {
+    background: transparent;
+    cursor: default;
+  }
+  
+  .calendar-date:hover {
+    background: #00C853;
+    color: white;
+  }
+  
+  .calendar-date.active {
+    background: #00C853;
+    color: white;
+  }
+  
+  /* Scrollable Dates Section */
+  .scrollable-dates {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .scrollable-dates::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .scrollable-dates::-webkit-scrollbar-thumb {
+    background: #00C853;
+    border-radius: 10px;
+  }
+  
+  .scrollable-dates::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Date Card */
+  .date-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .date-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .date-card.active {
+    background: #00C853;
+    color: white;
+  }
+  
+  .date-day {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  .date-card.active .date-day {
+    color: white;
+  }
+  
+  .date-number {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  /* Daily Goals Section */
+  .daily-goals {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-goals h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Goals Container */
+  .goals-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Calories Section */
+  .calories-section {
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .calories-text {
+    font-size: 18px;
+    font-weight: bold;
+    fill: #333;
+  }
+  
+  /* Diet Plan Section */
+  .diet-plan {
+    flex: 2;
+  }
+  
+  .diet-plan h4 {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 40px; /* Smaller font size */
+  }
+  
+  .diet-item {
+    margin-bottom: 8px; /* Further reduced margin */
+  }
+  
+  .diet-label {
+    font-size: 20px; /* Smaller font size */
+    color: #333;
+    margin-bottom: 2px; /* Further reduced margin */
+  }
+  
+  .diet-progress {
+    width: 40%;
+    height: 15px; /* Reduced height */
+    background-color: #e0e0e0;
+    border-radius: 2px; /* Adjusted border radius */
+    overflow: hidden; /* Ensure progress bar stays within the container */
+  }
+  
+  .diet-progress .progress {
+    height: 100%;
+    border-radius: 2px; /* Adjusted border radius */
+    background-color: #00C853; /* Default progress bar color */
+  }
+  
+  .diet-value {
+    font-size: 10px; /* Smaller font size */
+    color: #555;
+    margin-top: 2px; /* Further reduced margin */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .goals-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .calories-section {
+      max-width: 100%;
+    }
+  }
+  /* Daily Goals and Diet Plan Container */
+.daily-goals-container {
+    margin-top: 20px;
+  }
+  
+  /* Daily Goals Section */
+  .daily-goals {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-goals h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Calories Section */
+  .calories-section {
+    margin-bottom: 20px;
+  }
+  
+  .calories-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .calories-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progress-bar .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Diet Plan Section */
+  .diet-plan {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .diet-plan h4 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .diet-item {
+    margin-bottom: 15px;
+  }
+  
+  .diet-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .diet-progress {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .diet-progress .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .diet-value {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .daily-goals,
+    .diet-plan {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Health Card (Heart Rate and Sleep) */
+.health-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .health-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .health-icon {
+    margin-right: 15px;
+  }
+  
+  .health-details h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .health-details p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Combined Daily Goals and Diet Plan Card */
+  .daily-goals-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Daily Goals Section */
+  .daily-goals {
+    padding: 10px;
+  }
+  
+  .daily-goals h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Calories Section */
+  .calories-section {
+    margin-bottom: 20px;
+  }
+  
+  .calories-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .calories-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progress-bar .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Diet Plan Section */
+  .diet-plan {
+    padding: 10px;
+  }
+  
+  .diet-plan h4 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .diet-item {
+    margin-bottom: 15px;
+  }
+  
+  .diet-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .diet-progress {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .diet-progress .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .diet-value {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .health-item {
+      margin-bottom: 20px;
+    }
+  
+    .daily-goals,
+    .diet-plan {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  /* Bomb Blast Animation */
+@keyframes bombBlast {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .bomb-blast {
+    animation: bombBlast 0.5s ease-out;
+  }
+  
+  /* Notification Styling */
+  .goal-achieved-notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

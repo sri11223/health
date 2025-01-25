@@ -1,0 +1,364 @@
+{
+    "workouts": [
+      {
+        "id": 1,
+        "name": "Push-ups",
+        "time": "5 mins",
+        "caloriesBurned": 50,
+        "description": "A classic bodyweight exercise that targets the chest, shoulders, and triceps.",
+        "difficulty": "Beginner",
+        "targetMuscles": ["Chest", "Shoulders", "Triceps"],
+        "variations": [
+          {
+            "name": "Standard Push-up",
+            "description": "Perform a standard push-up with proper form.",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGt4cno2dWlkam5namQwdXJ4dDFndnlmaTBhZmphZ2E3OGh1Y3E4ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xTiTnlS1f0DlwzCkko/giphy.gif"
+          },
+          {
+            "name": "Wide Arm Push-up",
+            "description": "Place your hands wider than shoulder-width to target the chest more.",
+            "gif": "https://example.com/pushup-wide.gif"
+          },
+          {
+            "name": "Diamond Push-up",
+            "description": "Place your hands close together in a diamond shape to target the triceps.",
+            "gif": "https://example.com/pushup-diamond.gif"
+          },
+          {
+            "name": "Incline Push-up",
+            "description": "Place your hands on an elevated surface to make it easier.",
+            "gif": "https://example.com/pushup-incline.gif"
+          },
+          {
+            "name": "Decline Push-up",
+            "description": "Place your feet on an elevated surface to increase difficulty.",
+            "gif": "https://example.com/pushup-decline.gif"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Squats",
+        "time": "10 mins",
+        "caloriesBurned": 100,
+        "description": "A lower body exercise that targets the quads, hamstrings, and glutes.",
+        "difficulty": "Beginner",
+        "targetMuscles": ["Quads", "Hamstrings", "Glutes"],
+        "variations": [
+          {
+            "name": "Bodyweight Squat",
+            "description": "Perform a standard squat without weights.",
+            "gif": "https://example.com/squat-standard.gif"
+          },
+          {
+            "name": "Jump Squat",
+            "description": "Add a jump at the top of the squat for an explosive movement.",
+            "gif": "https://example.com/squat-jump.gif"
+          },
+          {
+            "name": "Pistol Squat",
+            "description": "Perform a one-legged squat for advanced strength.",
+            "gif": "https://example.com/squat-pistol.gif"
+          },
+          {
+            "name": "Sumo Squat",
+            "description": "Widen your stance and point your toes outward to target the inner thighs.",
+            "gif": "https://example.com/squat-sumo.gif"
+          },
+          {
+            "name": "Bulgarian Split Squat",
+            "description": "Place one foot behind you on a bench for a single-leg squat variation.",
+            "gif": "https://example.com/squat-bulgarian.gif"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Plank",
+        "time": "3 mins",
+        "caloriesBurned": 30,
+        "description": "A core exercise that strengthens the abs, shoulders, and back.",
+        "difficulty": "Beginner",
+        "targetMuscles": ["Abs", "Shoulders", "Back"],
+        "variations": [
+          {
+            "name": "Standard Plank",
+            "description": "Hold a plank position with your body in a straight line.",
+            "gif": "https://example.com/plank-standard.gif"
+          },
+          {
+            "name": "Side Plank",
+            "description": "Hold a plank on one side to target the obliques.",
+            "gif": "https://example.com/plank-side.gif"
+          },
+          {
+            "name": "Plank with Arm Lift",
+            "description": "Lift one arm at a time while holding the plank position.",
+            "gif": "https://example.com/plank-armlift.gif"
+          },
+          {
+            "name": "Plank with Leg Lift",
+            "description": "Lift one leg at a time while holding the plank position.",
+            "gif": "https://example.com/plank-leglift.gif"
+          },
+          {
+            "name": "Plank Jacks",
+            "description": "Jump your feet in and out while holding the plank position.",
+            "gif": "https://example.com/plank-jacks.gif"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Burpees",
+        "time": "10 mins",
+        "caloriesBurned": 150,
+        "description": "A full-body exercise that combines a squat, push-up, and jump.",
+        "difficulty": "Intermediate",
+        "targetMuscles": ["Full Body"],
+        "variations": [
+          {
+            "name": "Standard Burpee",
+            "description": "Perform a full burpee with a push-up and jump.",
+            "gif": "https://example.com/burpee-standard.gif"
+          },
+          {
+            "name": "No Push-up Burpee",
+            "description": "Skip the push-up for an easier variation.",
+            "gif": "https://example.com/burpee-nopushup.gif"
+          },
+          {
+            "name": "Jump Over Burpee",
+            "description": "Jump over an object after each burpee.",
+            "gif": "https://example.com/burpee-jumpover.gif"
+          },
+          {
+            "name": "Burpee with Tuck Jump",
+            "description": "Add a tuck jump at the end for more intensity.",
+            "gif": "https://example.com/burpee-tuckjump.gif"
+          },
+          {
+            "name": "Burpee with Push-up and Jump",
+            "description": "Perform a full burpee with a push-up and jump.",
+            "gif": "https://example.com/burpee-full.gif"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lunges",
+        "time": "10 mins",
+        "caloriesBurned": 80,
+        "description": "A lower body exercise that targets the quads, hamstrings, and glutes.",
+        "difficulty": "Beginner",
+        "targetMuscles": ["Quads", "Hamstrings", "Glutes"],
+        "variations": [
+          {
+            "name": "Forward Lunge",
+            "description": "Step forward with one leg and lower your body.",
+            "gif": "https://example.com/lunge-forward.gif"
+          },
+          {
+            "name": "Reverse Lunge",
+            "description": "Step backward with one leg and lower your body.",
+            "gif": "https://example.com/lunge-reverse.gif"
+          },
+          {
+            "name": "Walking Lunge",
+            "description": "Perform lunges while walking forward.",
+            "gif": "https://example.com/lunge-walking.gif"
+          },
+          {
+            "name": "Lateral Lunge",
+            "description": "Step to the side and lower your body.",
+            "gif": "https://example.com/lunge-lateral.gif"
+          },
+          {
+            "name": "Jumping Lunge",
+            "description": "Add a jump between lunges for more intensity.",
+            "gif": "https://example.com/lunge-jumping.gif"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Mountain Climbers",
+        "time": "5 mins",
+        "caloriesBurned": 70,
+        "description": "A cardio exercise that targets the core and legs.",
+        "difficulty": "Intermediate",
+        "targetMuscles": ["Core", "Legs"],
+        "variations": [
+          {
+            "name": "Standard Mountain Climbers",
+            "description": "Perform mountain climbers at a steady pace.",
+            "gif": "https://example.com/mountainclimber-standard.gif"
+          },
+          {
+            "name": "Slow Mountain Climbers",
+            "description": "Perform mountain climbers slowly for more control.",
+            "gif": "https://example.com/mountainclimber-slow.gif"
+          },
+          {
+            "name": "Cross-body Mountain Climbers",
+            "description": "Bring your knee to the opposite elbow for more core engagement.",
+            "gif": "https://example.com/mountainclimber-crossbody.gif"
+          },
+          {
+            "name": "High-intensity Mountain Climbers",
+            "description": "Perform mountain climbers as fast as possible.",
+            "gif": "https://example.com/mountainclimber-highintensity.gif"
+          },
+          {
+            "name": "Mountain Climbers with Push-up",
+            "description": "Add a push-up after each set of mountain climbers.",
+            "gif": "https://example.com/mountainclimber-pushup.gif"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Jumping Jacks",
+        "time": "5 mins",
+        "caloriesBurned": 60,
+        "description": "A cardio exercise that improves heart health and endurance.",
+        "difficulty": "Beginner",
+        "targetMuscles": ["Full Body"],
+        "variations": [
+          {
+            "name": "Standard Jumping Jacks",
+            "description": "Perform jumping jacks at a steady pace.",
+            "gif": "https://example.com/jumpingjack-standard.gif"
+          },
+          {
+            "name": "Slow Jumping Jacks",
+            "description": "Perform jumping jacks slowly for more control.",
+            "gif": "https://example.com/jumpingjack-slow.gif"
+          },
+          {
+            "name": "High-intensity Jumping Jacks",
+            "description": "Perform jumping jacks as fast as possible.",
+            "gif": "https://example.com/jumpingjack-highintensity.gif"
+          },
+          {
+            "name": "Jumping Jacks with Squat",
+            "description": "Add a squat after each set of jumping jacks.",
+            "gif": "https://example.com/jumpingjack-squat.gif"
+          },
+          {
+            "name": "Cross-body Jumping Jacks",
+            "description": "Cross your arms and legs during each jump.",
+            "gif": "https://example.com/jumpingjack-crossbody.gif"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Deadlifts",
+        "time": "10 mins",
+        "caloriesBurned": 120,
+        "description": "A strength exercise that targets the hamstrings, glutes, and lower back.",
+        "difficulty": "Intermediate",
+        "targetMuscles": ["Hamstrings", "Glutes", "Lower Back"],
+        "variations": [
+          {
+            "name": "Standard Deadlift",
+            "description": "Perform a standard deadlift with proper form.",
+            "gif": "https://example.com/deadlift-standard.gif"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "description": "Focus on the hamstrings by keeping your legs straight.",
+            "gif": "https://example.com/deadlift-romanian.gif"
+          },
+          {
+            "name": "Sumo Deadlift",
+            "description": "Widen your stance and grip the bar inside your legs.",
+            "gif": "https://example.com/deadlift-sumo.gif"
+          },
+          {
+            "name": "Single-leg Deadlift",
+            "description": "Perform a deadlift on one leg for balance and strength.",
+            "gif": "https://example.com/deadlift-singleleg.gif"
+          },
+          {
+            "name": "Kettlebell Deadlift",
+            "description": "Use a kettlebell for a different grip and feel.",
+            "gif": "https://example.com/deadlift-kettlebell.gif"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Bench Press",
+        "time": "10 mins",
+        "caloriesBurned": 100,
+        "description": "A strength exercise that targets the chest, shoulders, and triceps.",
+        "difficulty": "Intermediate",
+        "targetMuscles": ["Chest", "Shoulders", "Triceps"],
+        "variations": [
+          {
+            "name": "Barbell Bench Press",
+            "description": "Perform a bench press with a barbell.",
+            "gif": "https://example.com/benchpress-barbell.gif"
+          },
+          {
+            "name": "Dumbbell Bench Press",
+            "description": "Perform a bench press with dumbbells.",
+            "gif": "https://example.com/benchpress-dumbbell.gif"
+          },
+          {
+            "name": "Incline Bench Press",
+            "description": "Perform a bench press on an incline bench.",
+            "gif": "https://example.com/benchpress-incline.gif"
+          },
+          {
+            "name": "Decline Bench Press",
+            "description": "Perform a bench press on a decline bench.",
+            "gif": "https://example.com/benchpress-decline.gif"
+          },
+          {
+            "name": "Close-grip Bench Press",
+            "description": "Use a close grip to target the triceps more.",
+            "gif": "https://example.com/benchpress-closegrip.gif"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Pull-ups",
+        "time": "10 mins",
+        "caloriesBurned": 80,
+        "description": "A strength exercise that targets the back, shoulders, and arms.",
+        "difficulty": "Advanced",
+        "targetMuscles": ["Back", "Shoulders", "Arms"],
+        "variations": [
+          {
+            "name": "Standard Pull-up",
+            "description": "Perform a pull-up with an overhand grip.",
+            "gif": "https://example.com/pullup-standard.gif"
+          },
+          {
+            "name": "Chin-up",
+            "description": "Perform a pull-up with an underhand grip.",
+            "gif": "https://example.com/pullup-chinup.gif"
+          },
+          {
+            "name": "Wide-grip Pull-up",
+            "description": "Use a wide grip to target the lats more.",
+            "gif": "https://example.com/pullup-widegrip.gif"
+          },
+          {
+            "name": "Close-grip Pull-up",
+            "description": "Use a close grip to target the biceps more.",
+            "gif": "https://example.com/pullup-closegrip.gif"
+          },
+          {
+            "name": "Weighted Pull-up",
+            "description": "Add weight to increase difficulty.",
+            "gif": "https://example.com/pullup-weighted.gif"
+          }
+        ]
+      }
+    ]
+  }

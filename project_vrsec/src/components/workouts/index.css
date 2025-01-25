@@ -1,0 +1,588 @@
+/* Workouts Page */
+.workouts-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Workout Card */
+.workout-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: white;
+  margin-bottom: 1.5rem;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.workout-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.workout-header button {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.workout-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.workout-details .exercises,
+.workout-details .duration {
+  flex: 1;
+}
+
+.workout-details h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.workout-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.workout-details ul li {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.progress-section {
+  margin-top: 1rem;
+}
+
+.progress-section h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+/* Motivational Section */
+.motivational-section {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.motivational-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.motivational-section p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}/* Workouts Page */
+.workouts-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.total-calories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.total-calories span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-left: 0.5rem;
+}
+
+/* Workout Card */
+.workout-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: white;
+  margin-bottom: 1.5rem;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.workout-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.workout-header button {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.workout-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.workout-details .duration,
+.workout-details .calories {
+  display: flex;
+  align-items: center;
+}
+
+.workout-details span {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.progress-section {
+  margin-top: 1rem;
+}
+
+.progress-section h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+/* Motivational Section */
+.motivational-section {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.motivational-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.motivational-section p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+/* Workouts Page */
+.workouts-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Workout Card */
+.workout-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: white;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.workout-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.workout-details {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.workout-details span {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.workout-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.workout-tags span {
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.workout-tags .difficulty {
+  background: #4facfe;
+  color: white;
+}
+
+.workout-tags .target-muscles {
+  background: #ff6b6b;
+  color: white;
+}
+
+/* Workout Details Modal */
+.workout-instructions {
+  margin-bottom: 1.5rem;
+}
+
+.workout-instructions h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.workout-variations {
+  margin-top: 1.5rem;
+}
+
+.workout-variations h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.variation {
+  margin-bottom: 1.5rem;
+}
+
+.variation h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.variation-gif {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+/* Workouts Page */
+.workouts-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.total-calories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.total-calories span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-left: 0.5rem;
+}
+
+/* Workout Card */
+.workout-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: white;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.workout-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.workout-details {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.workout-details span {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.workout-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.workout-tags span {
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.workout-tags .difficulty {
+  background: #4facfe;
+  color: white;
+}
+
+.workout-tags .target-muscles {
+  background: #ff6b6b;
+  color: white;
+}
+
+/* Workout Details Modal */
+.workout-instructions {
+  margin-bottom: 1.5rem;
+}
+
+.workout-instructions h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.workout-variations {
+  margin-top: 1.5rem;
+}
+
+.workout-variations h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.variation {
+  margin-bottom: 1.5rem;
+}
+
+.variation h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.variation-gif {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.timer-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.timer-section button {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.workout-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.workout-card:hover {
+  transform: scale(1.05);
+}
+
+.timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.challenge-card, .community-post {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.dark-mode .challenge-card, .dark-mode .community-post {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.workout-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-bottom: 1rem;
+}
+
+.workout-card:hover {
+  transform: scale(1.05);
+}
+
+.timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.challenge-card, .community-post {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.dark-mode .challenge-card, .dark-mode .community-post {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.workout-history-item {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.dark-mode .workout-history-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}

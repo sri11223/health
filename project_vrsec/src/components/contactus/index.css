@@ -1,0 +1,26 @@
+/* Contact Us Section */
+.contact-us-section {
+    background-color: #f8f9fa;
+  }
+  
+  /* Contact Card Styling */
+  .contact-card {
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon Styling */
+  .contact-card .fa {
+    font-size: 1.2rem;
+  }
+  
+  /* Map Styling */
+  iframe {
+    border-radius: 10px;
+  }

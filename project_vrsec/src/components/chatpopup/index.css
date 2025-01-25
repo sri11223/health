@@ -1,0 +1,55 @@
+/* Chat Button Styling */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .chat-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Popup Styling */
+  .chat-popup {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-popup iframe {
+    flex: 1;
+    border: none;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Close Button Styling */
+  .close-button {
+    padding: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .close-button:hover {
+    background-color: #ff1a1a;
+  }
