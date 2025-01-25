@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "ajv": "^7.2.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
