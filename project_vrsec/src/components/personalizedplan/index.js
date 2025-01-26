@@ -32,7 +32,7 @@ const Suggestion = () => {
   const fetchHealthData = async (userId) => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/health-getdata", { userId });
+      const response = await axios.post("https://health-1-71qg.onrender.com/api/auth/health-getdata", { userId });
       const userHealth = response.data.userHealth;
       console.log("Fetched Health Data:", userHealth);
 
