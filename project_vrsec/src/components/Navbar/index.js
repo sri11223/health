@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -6,18 +6,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Cookies from 'js-cookie';
+import { useAuth } from "../../authcontext"; // Import the useAuth hook
 
 function AppNavbar() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const { isLoggedIn, logout } = useAuth(); // Use the global authentication state
   const navigate = useNavigate();
-
-  // Check for JWT token in cookies when the component mounts
-  useEffect(() => {
-    const token = Cookies.get('authToken');
-    if (token) {
-      setIsLoggedIn(true); // User is logged in
-    }
-  }, []);
 
   // Handle login
   const handleLogin = () => {
@@ -34,7 +27,7 @@ function AppNavbar() {
     // Remove the JWT token from cookies
     Cookies.remove('authToken');
     Cookies.remove('userID');
-    setIsLoggedIn(false); // Update state
+    logout(); // Update the global authentication state
     navigate('/'); // Redirect to the home page after logout
   };
 
@@ -75,7 +68,6 @@ function AppNavbar() {
                 <Nav.Link as={Link} to="/" style={{ color: isLoggedIn ? '#000000' : '#FFFFFF' }}>Home</Nav.Link>
                 <Nav.Link as={Link} to="/features" style={{ color: isLoggedIn ? '#000000' : '#FFFFFF' }}>Features</Nav.Link>
                 <Nav.Link as={Link} to="/about" style={{ color: isLoggedIn ? '#000000' : '#FFFFFF' }}>About Us</Nav.Link>
-               
                 <Nav.Link as={Link} to="/contact" style={{ color: isLoggedIn ? '#000000' : '#FFFFFF' }}>Contact</Nav.Link>
               </>
             )}

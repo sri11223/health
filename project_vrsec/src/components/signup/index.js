@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { useAuth } from "../../authcontext"; // Correct relative path
 function SignupForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -14,6 +14,7 @@ function SignupForm() {
   const [errors, setErrors] = useState({ email: "", password: "", username: "" });
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const { login } = useAuth(); // Use the login function from AuthContext
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -58,7 +59,7 @@ function SignupForm() {
           console.log(result);
           Cookies.set("authToken", result.token, { expires: 30 });
           Cookies.set("userID", result.userId, { expires: 30 });
-
+          login(); // Update the authentication state
           toast.success("Registration successful! Redirecting to questions page...", {
             autoClose: 2000,
             onClose: () => navigate("/questionpage", { state: { userId: result.userId } }),

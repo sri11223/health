@@ -6,13 +6,15 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { useAuth } from "../../authcontext"; // Correct relative path
+ // Relative path to authcontext.js
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState({ email: "", password: "" });
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const { login } = useAuth(); // Use the login function from AuthContext
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -53,6 +55,7 @@ function LoginForm() {
         if (response.ok) {
           Cookies.set("authToken", result.token, { expires: 30 }); // Save token in cookies
           Cookies.set("userID", result.userId, { expires: 30 });
+          login(); // Update the authentication state
           toast.success("Login successful! Redirecting to dashboard...", {
             autoClose: 2000,
             onClose: () => navigate("/questionpage"),
