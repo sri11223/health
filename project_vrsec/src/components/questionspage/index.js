@@ -78,7 +78,7 @@ function QuestionsPage() {
       };
 
       try {
-        const response = await axios.post('http://localhost:5000/api/auth/health-data', userData);
+        const response = await axios.post('https://health-1-71qg.onrender.com/api/auth/health-data', userData);
 
         if (response.status === 201) {
           toast.success('Data saved successfully!', {
